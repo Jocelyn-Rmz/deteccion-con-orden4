@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asistente de Voz - ALEXA</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="dark-mode">
+
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4 shadow-lg chat-card w-100">
+      <h2 class="text-center text-primary fw-bold">🎤 Asistente de Voz - Alexa </h2>
+      <p class="text-center text-muted">Di “ALEXA” seguido de una orden, por ejemplo: <em>ALEXA gira a la derecha</em></p>
+
+      <!-- Campo de nombre -->
+      <div class="mb-3">
+        <label for="userName" class="form-label text-white">Nombre</label>
+        <input type="text" id="userName" class="form-control" placeholder="Escribe un nombre" />
+      </div>
+
+      <!-- Resultado -->
+      <div class="mb-3">
+        <h5 class="text-white fw-semibold">Último mensaje detectado:</h5>
+        <div id="outputText" class="border rounded p-3 bg-light text-dark">Esperando orden...</div>
+      </div>
+
+      <!-- Botón -->
+      <button id="startBtn" class="btn btn-success w-100">🎙️ Iniciar Reconocimiento</button>
+
+      <!-- Mensajes -->
+      <div class="mt-3 text-center">
+        <div id="msgText" class="text-danger fw-medium"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3 w-100">
+    <p>Hecho por Luz María | IHC</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Control de Vehículo IoT - ALEXA</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="dark-mode">
+  <!-- Pie de página  -->
+  <!-- Pie de página personalizado con crédito -->
+  <footer class="bg-dark text-white text-center py-3 w-100 border-top border-info">
+    <p class="mb-0">
+      <i class="fa-solid fa-satellite-dish"></i> Desarrollado por Luz María para proyecto IHC - Control de vehículo IoT
+    </p>
+  </footer>
+
+  <!-- JavaScript personalizado -->
+  <script src="js/main.js"></script>
+</body>
+</html>

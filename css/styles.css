@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #232526, #414345);
+    color: white;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .dark-mode {
+    background-color: #181818;
+  }
+  
+  .chat-card {
+    background: #222;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    max-width: 600px;
+  }
+  
+  .btn-success {
+    transition: 0.2s ease-in-out;
+  }
+  .btn-success:hover {
+    transform: scale(1.05);
+  }
+  
+  #outputText {
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+  }
+  
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e1e1e, #292929);
+  color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+.dark-mode {
+  background-color: #181818;
+}
+
+.chat-card {
+  background: linear-gradient(145deg, #1f1f1f, #2e2e2e);
+  border-radius: 18px;
+  border: 2px solid #00c8ff33;
+  box-shadow: 0 0 20px #00c8ff44;
+  color: white;
+  max-width: 600px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.chat-card h2 i {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+
+#outputText {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-weight: 500;
+  min-height: 80px;
+  transition: all 0.3s ease-in-out;
+}
+
+#startBtn {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 200, 255, 0.4);
+}
+
+#startBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.6);
+}
